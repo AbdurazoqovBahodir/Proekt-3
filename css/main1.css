@@ -1,0 +1,94 @@
+body{
+    background-image: url("../rasmlar/color_body_bg_image.jpg");}
+.height{
+    height: 30px;
+}
+.w-20{
+    width: 20px;
+}
+.margin-left{
+    margin-left: -500px;
+}
+.text-kot{
+    margin-left: 600px;
+}
+.margin{
+    margin-left: -1200px;
+}
+.text-kit{
+    margin-left: 1150px;
+}
+.x{
+    width: 540px;
+    height: 50px;
+    margin-left: 260px;
+}
+
+
+
+
+.container{
+    position: relative;
+    z-index: 1;
+}
+
+
+
+.NN:hover > .drop-menu{
+    display: block;
+}
+.dropitem:hover > .drop-menu2{
+    display: block;
+}
+
+.drop-menu{
+    background-color: white;
+    position: absolute;
+    top: 70%;
+    left: 0;
+    padding: 10px 10px;
+    z-index: 2;
+    display: none;
+    list-style: none;
+
+
+}
+.drop-menu2{
+    background-color: white;
+    position: absolute;
+    width: 200px;
+    top: 80%;
+    left: 90%;
+    padding: 10px 10px;
+    z-index: 2;
+    display: none;
+    list-style: none;
+
+
+}
+.drop-menu2:hover{
+    background-color: lightgrey;
+    padding: 10px;
+
+}
+
+.hh:hover{
+    background-color: #efefef;
+}
+
+.dropitem{
+    padding: 8px 10px;
+    list-style: none;
+    text-decoration:none ;
+    color: black;
+}
+.dropitem:hover{
+    background-color: lightgrey;
+    color: black;
+    text-decoration: none;
+}
+.dropitem:hover a{
+    background-color: lightgrey;
+    color: black;
+    text-decoration: none;
+}
